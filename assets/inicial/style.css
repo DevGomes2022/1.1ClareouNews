@@ -123,6 +123,9 @@ header li {
         width: 80%;
         margin: auto;
     }
+    .banner:hover {
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    }
 }
 
 .banner a {
@@ -264,6 +267,10 @@ header li {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
+}
+
+.noticia-box:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (min-width: 1280px) {
@@ -497,6 +504,13 @@ footer img {
     }
 }
 
+@media screen and (min-width: 1760px) {
+    footer img {
+        width: 8vw;
+        padding-top: 10px;
+    }
+}
+
 footer h1 {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -525,6 +539,12 @@ footer h1 {
 @media screen and (min-width: 1600px) {
     footer h1 {
         font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 1760px) {
+    footer h1 {
+        font-size: 1.2vw;
     }
 }
 
@@ -575,6 +595,12 @@ footer ul li a img:hover {
     }
 }
 
+@media screen and (min-width: 1760px) {
+    footer ul li a img {
+        width: 1.7vw;
+    }
+}
+
 footer p {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -600,9 +626,9 @@ footer p {
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1760px) {
     footer p {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 }
 
